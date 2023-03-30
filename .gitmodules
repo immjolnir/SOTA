@@ -1,0 +1,12 @@
+[submodule "BEVFormer"]
+	path = BEVFormer
+	url = https://github.com/fundamentalvision/BEVFormer.git
+[submodule "SurroundOcc"]
+	path = SurroundOcc
+	url = https://github.com/weiyithu/SurroundOcc.git
+[submodule "MonoScene"]
+	path = MonoScene
+	url = https://github.com/astra-vision/MonoScene.git
+[submodule "BEVPerception-Survey-Recipe"]
+	path = BEVPerception-Survey-Recipe
+	url = https://github.com/OpenPerceptionX/BEVPerception-Survey-Recipe.git
