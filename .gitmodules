@@ -10,3 +10,6 @@
 [submodule "BEVPerception-Survey-Recipe"]
 	path = BEVPerception-Survey-Recipe
 	url = https://github.com/OpenPerceptionX/BEVPerception-Survey-Recipe.git
+[submodule "vimrc"]
+	path = vimrc
+	url = https://github.com/amix/vimrc.git
