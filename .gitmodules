@@ -13,3 +13,9 @@
 [submodule "vimrc"]
 	path = vimrc
 	url = https://github.com/amix/vimrc.git
+[submodule "FCOS"]
+	path = FCOS
+	url = https://github.com/tianzhi0549/FCOS.git
+[submodule "mmdetection3d"]
+	path = mmdetection3d
+	url = https://github.com/open-mmlab/mmdetection3d.git
