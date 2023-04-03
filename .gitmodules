@@ -28,3 +28,6 @@
 [submodule "latte"]
 	path = latte
 	url = https://github.com/bernwang/latte.git
+[submodule "decisionmaking"]
+	path = decisionmaking
+	url = https://github.com/algorithmsbooks/decisionmaking.git

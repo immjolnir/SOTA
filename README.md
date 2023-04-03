@@ -43,11 +43,46 @@ $ python demo/pcd_demo.py demo/data/kitti/kitti_000008.bin configs/second/hv_sec
 * https://shliang.blog.csdn.net/article/details/116133545
 pcl-tools
 
+
+
 * 三维点云可视化
 https://blog.csdn.net/suiyingy/article/details/124015667
 
+### [Demo](https://github.com/open-mmlab/mmdetection3d/blob/master/docs/en/demo.md)
+#### Monocular 3D Detection
+```
+docker run --gpus all --shm-size=8g -it -v $PWD/data/pretrain_models:/mmdetection3d/data/pretrain_models -v $PWD/output:/mmdetection3d/output:rw mmdetection3d
+
+
+python demo/mono_det_demo.py \
+  demo/data/nuscenes/n015-2018-07-24-11-22-45+0800__CAM_BACK__1532402927637525.jpg \
+  demo/data/nuscenes/n015-2018-07-24-11-22-45+0800__CAM_BACK__1532402927637525_mono3d.coco.json \
+  configs/fcos3d/fcos3d_r101_caffe_fpn_gn-head_dcn_2x8_1x_nus-mono3d_finetune.py \
+  data/pretrain_models/fcos3d_r101_caffe_fpn_gn-head_dcn_2x8_1x_nus-mono3d_20210715_235813-4bed5239.pth \
+  --out-dir output --score-thr 0.15
+```
+
+* `--show` has the error: 
+```
+qt.qpa.xcb: could not connect to display 
+qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "/opt/conda/lib/python3.7/site-packages/cv2/qt/plugins" even though it was found.
+This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
+
+Available platform plugins are: xcb.
+```
+
+
+
+The visualization results including an image and its predicted 3D bounding boxes projected on the image will be saved in `--out-dir`.
 
 # Annotation Tool
 ## SUSTechPOINT
 ## latte
 
+* $ nvidia-smi -lms
+
+
+# ALGORITHMS FOR DECISION MAKING
+* https://github.com/algorithmsbooks
+
+旨在提供决策模型和计算方法背后的理论，介绍了不确定情况下决策问题的实例应用，概述了可能的计算方法。
