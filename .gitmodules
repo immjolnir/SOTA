@@ -22,3 +22,9 @@
 [submodule "mmcv"]
 	path = mmcv
 	url = https://github.com/open-mmlab/mmcv.git
+[submodule "SUSTechPOINTS"]
+	path = SUSTechPOINTS
+	url = https://github.com/naurril/SUSTechPOINTS.git
+[submodule "latte"]
+	path = latte
+	url = https://github.com/bernwang/latte.git
