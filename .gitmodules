@@ -19,6 +19,7 @@
 [submodule "mmdetection3d"]
 	path = mmdetection3d
 	url = https://github.com/open-mmlab/mmdetection3d.git
+	branch = main
 [submodule "mmcv"]
 	path = mmcv
 	url = https://github.com/open-mmlab/mmcv.git
@@ -31,3 +32,9 @@
 [submodule "decisionmaking"]
 	path = decisionmaking
 	url = https://github.com/algorithmsbooks/decisionmaking.git
+[submodule "nuplan-devkit"]
+    path = nuplan-devkit
+	url = https://github.com/motional/nuplan-devkit.git
+[submodule "nuscenes-devkit"]
+    path = nuscenes-devkit
+	url = https://github.com/nutonomy/nuscenes-devkit.git

@@ -1,4 +1,17 @@
 
+# Data
+
+## Nuscenes
+* [Schema](https://nuplan-devkit.readthedocs.io/en/latest/nuplan_schema.html)
+
+nuImage is a separate dataset that is 2d only.
+nuScenes is the dataset with 3d object annotations.
+nuScenes-lidarseg is an extension for nuScenes with lidar point-level labels.
+
+
+Exactly. Mini is good if you just want to run it on a small subset (10 scenes).
+
+
 # Utility
 ## Vimrc
 
