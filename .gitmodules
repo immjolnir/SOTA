@@ -38,3 +38,7 @@
 [submodule "nuscenes-devkit"]
     path = nuscenes-devkit
 	url = https://github.com/nutonomy/nuscenes-devkit.git
+[submodule "BEVDet"]
+	path = BEVDet
+	url = https://github.com/HuangJunJie2017/BEVDet.git
+	branch = dev2.1
