@@ -25,6 +25,10 @@ Before running the evaluation code the following pre-processing is done on the d
 mean Average Precision (mAP): We use the well-known Average Precision metric, but define a match by considering the 2D center distance on the ground plane rather than intersection over union based affinities. Specifically, we match predictions with the ground truth objects that have the smallest center-distance up to a certain threshold. For a given match threshold we calculate average precision (AP) by integrating the recall vs precision curve for recalls and precisions > 0.1. We finally average over match thresholds of {0.5, 1, 2, 4} meters and compute the mean across classes.
 这里的 2D center distance to the ground plane 是什么意思？
 
+###### [Matching criterion](https://www.nuscenes.org/tracking?externalData=all&mapData=all&modalities=Any)
+
+For all metrics, we define a match by thresholding the 2D center distance on the ground plane rather than Intersection Over Union (IOU) based affinities. We find that this measure is more forgiving for far-away objects than IOU which is often 0, particularly for monocular image-based approaches. The matching threshold (center distance) is 2m.
+
 ##### True Positive metrics
 Here we define metrics for a set of true positives (TP) that measure translation / scale / orientation / velocity and attribute errors. All TP metrics are calculated using a threshold of 2m center distance during matching, and they are all designed to be positive scalars.
 

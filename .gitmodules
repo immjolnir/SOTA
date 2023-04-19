@@ -42,3 +42,6 @@
 	path = BEVDet
 	url = https://github.com/HuangJunJie2017/BEVDet.git
 	branch = dev2.1
+[submodule "BEVFusion"]
+	path = BEVFusion
+	url = https://github.com/ADLab-AutoDrive/BEVFusion.git
