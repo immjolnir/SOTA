@@ -12,6 +12,9 @@ for example,
 
 * __Learning Cost Maps for Planning__: We frame end-to-end motion planning ("shooting") as classification over a set of fixed template trajectories (left). We define the logit for template to be the sum of values in the bird's-eye-view cost map output by our model (right). We then train the model to maximize the likelihood of expert trajectories.
 
+### Refers
+* https://blog.csdn.net/weixin_45657478/article/details/126138368
+
 
 
 # Data
