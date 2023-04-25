@@ -73,6 +73,17 @@ nuScenes detection score (NDS): We consolidate the above metrics by computing a 
 # Utility
 ## Vimrc
 
+# PETRv2
+本文提出了一个统一的纯视觉3D感知框架PETRv2。基于PETR，PETRv2探究了利用历史帧的信息来进行时序建模，大幅度地提升了3D物体检测的性能。具体来说，我们扩展了PETR中所提出的3D position embedding （3D PE）来进行时序建模，证明3D PE能够实现不同帧物体空间位置的对齐。进一步地，我们引入了一个特征引导的位置编码器，来改善3D PE对于不同输入数据的适应性。为使PETR框架能够同时进行高质量的BEV分割，PETRv2提供了一个简单而又高效的解决方案。我们引入了一些分割查询向量，每个分割查询变量用于分割BEV图像中特定的块区域。PETRv2在3D物体检测和BEV分割任务上均有着先进的性能表现。
+
+* https://hub.baai.ac.cn/view/18152
+
+# BEV
+* https://zhuanlan.zhihu.com/p/533385829
+* https://blog.csdn.net/weixin_45657478/article/details/126149670
+* https://blog.csdn.net/weixin_45657478/article/details/126217695
+* https://blog.csdn.net/weixin_45657478/article/details/126860028
+
 # SurroundOcc
 
 ## BEVFormer

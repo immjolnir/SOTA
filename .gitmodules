@@ -54,3 +54,6 @@
 [submodule "lift-splat-shoot"]
 	path = lift-splat-shoot
 	url = https://github.com/nv-tlabs/lift-splat-shoot.git
+[submodule "PETR"]
+	path = PETR
+	url = https://github.com/megvii-research/PETR.git
