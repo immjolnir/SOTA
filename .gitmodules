@@ -51,3 +51,6 @@
 [submodule "mmdetection"]
 	path = mmdetection
 	url = https://github.com/open-mmlab/mmdetection.git
+[submodule "lift-splat-shoot"]
+	path = lift-splat-shoot
+	url = https://github.com/nv-tlabs/lift-splat-shoot.git

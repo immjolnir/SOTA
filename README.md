@@ -1,3 +1,18 @@
+# Glossary
+## TTA: Test time augmentation
+Test time augmentation (TTA) is a popular technique in computer vision. TTA aims at boosting the model accuracy by using data augmentation on the inference stage. The idea behind TTA is simple: for each test image, we create multiple versions that are a little different from the original (e.g., cropped or flipped).
+
+for example,
+* [MultiScaleFlipAug3D](https://github.com/open-mmlab/mmdetection3d/blob/main/mmdet3d/datasets/transforms/test_time_aug.py) in mmdet3.
+
+* [Test-Time Augmentation for Tabular Data](https://github.com/kozodoi/website/blob/master/_notebooks/2021-09-08-tta-tabular.ipynb)
+
+## [LSS(Lift, splat and )](https://nv-tlabs.github.io/lift-splat-shoot/)
+* __Lift, Splat, Shoot__: Our goal is to design a model that takes as input multi-view image data from any camera rig and outputs a semantics in the reference frame of the camera rig as determined by the extrinsics and intrinsics of the cameras. The tasks we consider in this paper are bird's-eye-view vehicle segmentation, bird's-eye-view lane segmentation, drivable area segmentation, and motion planning. Our network is composed of an initial per-image CNN followed by a bird's-eye-view CNN connected by a "Lift-Splat" pooling layer (left). To "lift" images into 3D, the per-image CNN performs an attention-style operation at each pixel over a set of discrete depths (right).
+
+* __Learning Cost Maps for Planning__: We frame end-to-end motion planning ("shooting") as classification over a set of fixed template trajectories (left). We define the logit for template to be the sum of values in the bird's-eye-view cost map output by our model (right). We then train the model to maximize the likelihood of expert trajectories.
+
+
 
 # Data
 
