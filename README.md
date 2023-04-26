@@ -19,6 +19,14 @@ for example,
 # [timm: PyTorch Image Models](https://github.com/huggingface/pytorch-image-model)
 PyTorch Image Models (timm) is a collection of image models, layers, utilities, optimizers, schedulers, data-loaders / augmentations, and reference training / validation scripts that aim to pull together a wide variety of SOTA models with ability to reproduce ImageNet training results.
 
+# [FreeRDP](https://github.com/FreeRDP/FreeRDP.git): A free remote desktop protocol library and clients
+* https://www.anyviewer.cn/how-to/what-is-rdp-666.html
+
+## Similar Implementation
+* https://github.com/GoSecure/pyrdp
+* https://github.com/neutrinolabs/xrdp.git
+
+
 
 
 # Data

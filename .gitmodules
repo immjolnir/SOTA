@@ -60,3 +60,6 @@
 [submodule "pytorch-image-models"]
 	path = pytorch-image-models
 	url = https://github.com/huggingface/pytorch-image-models.git
+[submodule "FreeRDP"]
+	path = FreeRDP
+	url = https://github.com/FreeRDP/FreeRDP.git
