@@ -16,6 +16,9 @@ for example,
 * https://blog.csdn.net/weixin_45657478/article/details/126138368
 * https://blog.csdn.net/weixin_45657478/article/details/126255833
 
+# [timm: PyTorch Image Models](https://github.com/huggingface/pytorch-image-model)
+PyTorch Image Models (timm) is a collection of image models, layers, utilities, optimizers, schedulers, data-loaders / augmentations, and reference training / validation scripts that aim to pull together a wide variety of SOTA models with ability to reproduce ImageNet training results.
+
 
 
 # Data
