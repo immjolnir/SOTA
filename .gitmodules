@@ -63,3 +63,6 @@
 [submodule "FreeRDP"]
 	path = FreeRDP
 	url = https://github.com/FreeRDP/FreeRDP.git
+[submodule "Image-formation-and-camera-calibration"]
+	path = Image-formation-and-camera-calibration
+	url = https://github.com/wingedrasengan927/Image-formation-and-camera-calibration.git
