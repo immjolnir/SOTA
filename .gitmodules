@@ -66,3 +66,6 @@
 [submodule "Image-formation-and-camera-calibration"]
 	path = Image-formation-and-camera-calibration
 	url = https://github.com/wingedrasengan927/Image-formation-and-camera-calibration.git
+[submodule "Deep-Learning-From-Scratch"]
+	path = Deep-Learning-From-Scratch
+	url = https://github.com/emilwallner/Deep-Learning-From-Scratch.git
